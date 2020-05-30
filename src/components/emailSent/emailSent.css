@@ -1,0 +1,34 @@
+.emailSent {
+  width: 100%;
+  max-width: 480px;
+  height: 60vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 30px;
+  position: relative;
+}
+
+.green {
+  background-color: #27ae60;
+}
+
+.emailSent_redirect_login svg {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.emailSent_redirect_login {
+  position: absolute;
+  top: -70px;
+  right: 30px;
+}
+
+.emailSent_label.emailSent_label.emailSent_label {
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}

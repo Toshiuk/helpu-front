@@ -1,0 +1,44 @@
+.tutorial {
+  width: 100%;
+  max-width: 375px;
+  height: 60vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 30px;
+  position: relative;
+}
+
+.slider.animated,
+.slider-wrapper,
+.carousel.carousel-slider {
+  height: 100%;
+}
+
+.tutorial .carousel .control-dots .dot {
+  background: #27ae60;
+}
+
+.carousel-status {
+  display: none;
+}
+
+.tutorialCard {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.tutorialCard_label.tutorialCard_label.tutorialCard_label {
+  font-size: 40px;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.carousel-root {
+  width: 100%;
+}

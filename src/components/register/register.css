@@ -1,0 +1,143 @@
+.register {
+  width: 100%;
+  max-width: 480px;
+  height: 60vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 30px;
+  position: relative;
+}
+
+.register_position {
+  position: absolute;
+  left: 30px;
+  top: -70px;
+  font-size: 28px;
+  color: #27ae60;
+}
+
+.register_position p {
+  font-size: 28px;
+}
+
+.register_form {
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+}
+
+.register_upper {
+  width: 100%;
+}
+
+.register_bottom {
+  width: 100%;
+}
+
+.register_title {
+  font-size: 40px;
+}
+
+.register_form_input {
+  margin-bottom: 20px !important;
+}
+
+.register_form_input input::placeholder {
+  opacity: 1;
+}
+
+.register_form_button.register_form_button.register_form_button {
+  background: linear-gradient(180deg, #20914f 0%, #27ae60 100%);
+  font-weight: 600;
+  height: 48px;
+  border-radius: 4px;
+  width: 100%;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.register_footer p {
+  cursor: pointer;
+}
+
+.login_label {
+  text-decoration: underline;
+}
+
+.register_label {
+  font-size: 24px;
+}
+
+.radio_buttons {
+  margin-top: 10px;
+}
+
+.radio_label span,
+.checkbox_label span {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.login_label {
+  margin-bottom: 14px;
+}
+
+.checkbox_label {
+  margin-bottom: 45px;
+}
+
+.redirect_login svg {
+  color: #27ae60;
+  font-size: 45px;
+}
+
+.redirect_login {
+  position: absolute;
+  top: -70px;
+  right: 30px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgb(1, 1, 1, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_takePhoto {
+  display: flex;
+  margin-bottom: 27px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.register_takePhoto svg {
+  color: #27ae60;
+  margin-right: 13px;
+  font-size: 65px;
+}
+
+.leaflet-container {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.register_map {
+  margin-top: 15px;
+}
+
+.register_loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}

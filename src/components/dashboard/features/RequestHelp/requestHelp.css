@@ -1,0 +1,57 @@
+.requestHelp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.requestHelp_button.requestHelp_button.requestHelp_button {
+  background: linear-gradient(180deg, #20914f 0%, #27ae60 100%);
+  font-weight: 600;
+  height: 48px;
+  border-radius: 4px;
+  width: 100%;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.requestHelp_title.requestHelp_title.requestHelp_title {
+  font-size: 40px;
+}
+
+.requestHelp_options_title.requestHelp_options_title.requestHelp_options_title {
+  font-size: 24px;
+}
+
+.requestHelp_options li {
+  background: #ebf7ef;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 8px 8px 8px 0px;
+}
+
+.requestHelp_options li.active {
+  background: #27ae60;
+  color: #ffffff;
+}
+
+.requestHelp_options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.requestHelp_message_label.requestHelp_message_label.requestHelp_message_label {
+  font-size: 24px;
+}
+
+.requestHelp_message_field {
+  width: 100%;
+}
+
+.requestHelp_message_field textarea {
+  overflow: inherit;
+  max-height: 60px;
+}
