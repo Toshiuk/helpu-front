@@ -1,6 +1,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn-FrontEnd][linkedin-shield]][linkedin-url-1]
-[![LinkedIn-Designer][linkedin-shield]][linkedin-url-3]
+[![LinkedIn-Designer][linkedin-shield]][linkedin-url-2]
+[![LinkedIn-Health][linkedin-shield]][linkedin-url-3]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -75,4 +76,5 @@ yarn dev
 [contributors-url]: https://github.com/Toshiuk/helpu-front/graphs/contributors
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url-1]: https://linkedin.com/in/flaviotoshiukhjr
-[linkedin-url-3]: https://linkedin.com/in/1mauriliosouza
+[linkedin-url-2]: https://linkedin.com/in/1mauriliosouza
+[linkedin-url-3]: https://www.linkedin.com/in/d%C3%A9bora-bertaco/
